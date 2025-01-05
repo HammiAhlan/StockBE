@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/irgifauzi/back-bola/model"
-	"github.com/irgifauzi/back-bola/module"
+	"github.com/HammiAhlan/StockBE/model"
+	"github.com/HammiAhlan/StockBE/module"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

@@ -1,12 +1,11 @@
 package module
-
 import (
 	"context"
 	"errors"
 	"fmt"
 	"log"
 
-	"github.com/irgifauzi/back-bola/model"
+	"github.com/HammiAhlan/StockBE/model"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
@@ -114,3 +113,4 @@ func DeleteDetailBarangByID(_id primitive.ObjectID, db *mongo.Database, col stri
 
 	return nil
 }
+
